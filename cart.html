@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Giỏ Hàng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/styles/cart.css"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Giỏ Hàng</h1>
+    </header>
+
+    <main class="cart-container">
+        <section class="cart-items">
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/100/A05128/FFFFFF?text=Sản+phẩm+A" alt="Sản phẩm A"/>
+                <div class="item-details">
+                    <h2>Sản phẩm A</h2>
+                    <p class="price">₫350,000</p>
+                    <div class="quantity-control">
+                        <label for="qty-1">Số lượng:</label>
+                        <input type="number" id="qty-1" value="1" min="1"/>
+                    </div>
+                </div>
+                <button class="remove-btn">Xóa</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/100/40798C/FFFFFF?text=Sản+phẩm+B" alt="Sản phẩm B"/>
+                <div class="item-details">
+                    <h2>Sản phẩm B</h2>
+                    <p class="price">₫220,000</p>
+                    <div class="quantity-control">
+                        <label for="qty-2">Số lượng:</label>
+                        <input type="number" id="qty-2" value="2" min="1"/>
+                    </div>
+                </div>
+                <button class="remove-btn">Xóa</button>
+            </div>
+            
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/100/D9A0B8/FFFFFF?text=Sản+phẩm+C" alt="Sản phẩm C"/>
+                <div class="item-details">
+                    <h2>Sản phẩm C</h2>
+                    <p class="price">₫180,000</p>
+                    <div class="quantity-control">
+                        <label for="qty-3">Số lượng:</label>
+                        <input type="number" id="qty-3" value="1" min="1"/>
+                    </div>
+                </div>
+                <button class="remove-btn">Xóa</button>
+            </div>
+
+        </section>
+
+        <section class="cart-summary">
+            <h2>Tóm tắt đơn hàng</h2>
+            <div class="summary-line">
+                <span>Tạm tính:</span>
+                <span>₫790,000</span>
+            </div>
+            <div class="summary-line">
+                <span>Phí vận chuyển:</span>
+                <span>₫30,000</span>
+            </div>
+            <div class="summary-line total">
+                <span>Tổng cộng:</span>
+                <span>₫820,000</span>
+            </div>
+            <button class="checkout-btn">Tiến hành thanh toán</button>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Shop của Bạn. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
